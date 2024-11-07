@@ -50,16 +50,7 @@ python main.py --task=test --save_name=DESAM_cp
 ## Citation
 If you use DESAM_cp in your research or project, please cite our paper:
 
-@INPROCEEDINGS{10385852,
-  author={Lee, Sanghoon and Jang, Gwanghoon and Kim, Chanhwi and Park, Sejeong and Yoo, Kiwoong and Kim, Jihye and Kim, Sunkyu and Kang, Jaewoo},
-  booktitle={2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)}, 
-  title={Enhancing Clinical Outcome Predictions through Auxiliary Loss and Sentence-Level Self-Attention}, 
-  year={2023},
-  volume={},
-  number={},
-  pages={1210-1217},
-  keywords={Codes;Hospitals;Neural networks;Decision making;Data visualization;Predictive models;Resource management;electronic health records;mortality prediction;length of stay prediction;clinical outcome prediction;Multi-modal neural network;self-attention mechanisms;diagnosis prediction;auxiliary loss},
-  doi={10.1109/BIBM58861.2023.10385852}}
+S. Lee et al., "Enhancing Clinical Outcome Predictions through Auxiliary Loss and Sentence-Level Self-Attention," 2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), Istanbul, Turkiye, 2023, pp. 1210-1217, doi: [10.1109/BIBM58861.2023.10385852](https://doi.org/10.1109/BIBM58861.2023.10385852).
 
 
 ## Contact
