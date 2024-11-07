@@ -5,3 +5,4 @@ data/
 *.pyc
 __pycache__/
 .DS_Store
+preprocess_notebook/.ipynb_checkpoints/
