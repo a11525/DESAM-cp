@@ -41,11 +41,7 @@ class EntityAttentionModel(nn.Module):
 
 
         
-        if self.args.use_entity:
-            entity_feature = self.Entity_encoder(entity)
-        else:
-            entity_feature = entity.mean(1)
-            entity_feature = self.act_func(self.encoder_for_bert(entity_feature))
+        entity_feature = self.Entity_encoder(entity)
 
         fusion_feature = torch.concat([ts_hiddens, entity_feature], axis=1)
         
@@ -54,7 +50,6 @@ class EntityAttentionModel(nn.Module):
         x = self.last_layer(x)
 
         aux_feature=self.dropout(self.act_func(self.aux_fc1(entity_feature)))
-        #aux_feature = self.dropout(self.act_func(self.aux_fc1(fusion_feature)))
         aux_feature = self.aux_fc2(aux_feature)
         
         if self.args.task != 'predict':
