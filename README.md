@@ -52,6 +52,9 @@ If you use DESAM_cp in your research or project, please cite our paper:
 
 S. Lee et al., "Enhancing Clinical Outcome Predictions through Auxiliary Loss and Sentence-Level Self-Attention," 2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), Istanbul, Turkiye, 2023, pp. 1210-1217, doi: [10.1109/BIBM58861.2023.10385852](https://doi.org/10.1109/BIBM58861.2023.10385852).
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
